@@ -53,9 +53,17 @@ export default function Home() {
         A clean online tool for counting words and characters.
       </p>
 
-      <p className="mt-4 text-blue-600 font-medium">
-        Click card to open live demo →
-      </p>
+      <div className="mt-4">
+  <a
+    href="https://github.com/divyanshi80405/word-counter-tool"
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={(e) => e.stopPropagation()}
+    className="text-blue-600 underline"
+  >
+    GitHub Repository
+  </a>
+</div>
     </a>
 
     {/* GitHub Profile Finder */}
@@ -86,9 +94,17 @@ export default function Home() {
         Search GitHub users and view repositories and profile information.
       </p>
 
-      <p className="mt-4 text-blue-600 font-medium">
-        Click card to open live demo →
-      </p>
+      <div className="mt-4">
+  <a
+    href="https://github.com/divyanshi80405/GitHub-Profile-Finder"
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={(e) => e.stopPropagation()}
+    className="text-blue-600 underline"
+  >
+    GitHub Repository
+  </a>
+</div>
     </a>
 
   </div>
