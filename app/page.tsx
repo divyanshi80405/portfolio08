@@ -26,12 +26,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
 
             <div
-              onClick={() =>
-                window.open(
-                  "https://wordcountertool-9j0lw6uc6-divi2.vercel.app",
-                  "_blank"
-                )
-              }
+  onClick={() => {
+    alert("Card clicked!");
+    window.open(
+      "https://githubprofilefinder-lf69yt5b6-divi2.vercel.app",
+      "_blank"
+    );
+  }}
               className="
                 block
                 bg-white
