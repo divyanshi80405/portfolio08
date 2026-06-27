@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Divyanshi Negi | Portfolio
 
-## Getting Started
+A modern portfolio website showcasing my work in Artificial Intelligence, Machine Learning, Full-Stack Development, and Software Engineering.
 
-First, run the development server:
+**Live Website:** https://portfolio08-one.vercel.app/
+
+---
+
+## About
+
+This portfolio highlights my technical projects, research experience, hackathons, skills, and professional journey as an AI/ML Engineer and Software Developer.
+
+The website is designed with a modern dark theme, smooth animations, responsive layouts, and interactive project cards to provide an engaging user experience.
+
+---
+
+## Features
+
+- Responsive modern UI
+- Interactive project cards
+- Dark theme with animated background
+- Project showcase
+- Experience timeline
+- Skills section
+- Contact section
+- Smooth animations using Framer Motion
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### Deployment
+
+- Vercel
+
+---
+
+## Featured Projects
+
+### Enterprise RAG Chatbot
+
+An AI-powered Retrieval-Augmented Generation chatbot that allows users to upload PDF documents and ask questions using semantic search.
+
+**Technologies**
+- Python
+- FastAPI
+- Gemini API
+- FAISS
+- Next.js
+
+---
+
+### City Agent
+
+An AI-powered municipal document assistant that classifies, validates, extracts, and routes citizen documents using intelligent agents.
+
+**Technologies**
+- Next.js
+- FastAPI
+- OCR
+- AI Agents
+
+---
+
+### MedLens AI
+
+An explainable AI application for medical image analysis that assists in chest X-ray interpretation.
+
+**Technologies**
+- Python
+- FastAPI
+- Deep Learning
+
+---
+
+### GitHub Profile Finder
+
+A developer tool that searches GitHub users and displays profile information and repositories.
+
+**Technologies**
+- React
+- GitHub REST API
+
+---
+
+### Text Metrics
+
+A lightweight utility for analyzing text by calculating word count, character count, and readability metrics.
+
+**Technologies**
+- React
+- TypeScript
+
+---
+
+## Running Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/divyanshi80405/portfolio08.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio08
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+components/
+data/
+public/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Email: divyanshi80405@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/divyanshi80405
+
+LinkedIn: https://www.linkedin.com/in/divyanshi-negi/
+
+Portfolio: https://portfolio08-one.vercel.app/
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
